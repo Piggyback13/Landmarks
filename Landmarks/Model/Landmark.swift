@@ -12,7 +12,7 @@ import CoreLocation
 struct Landmark: Hashable, Codable, Identifiable {
     var id: Int
     var name, park, state, description: String
-    var isFavorite: Bool
+    var isFavorite, isFeatured: Bool
     
     var category: Category
     enum Category: String, CaseIterable, Codable {

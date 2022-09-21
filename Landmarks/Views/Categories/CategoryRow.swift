@@ -21,7 +21,11 @@ struct CategoryRow: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 0) {
                     ForEach(items) { landmark in
-                        Text(landmark.name)
+                        NavigationLink {
+                            LandmarkDetail(landmark: landmark)
+                        } label: {
+                            CategoryItem(landmark: landmark)
+                        }
                     }
                 }
             }
@@ -36,7 +40,7 @@ struct CategoryRow_Previews: PreviewProvider {
     static var previews: some View {
         CategoryRow(
             categoryName: landmarks[0].category.rawValue,
-            items: Array(landmarks.prefix(3))
+            items: Array(landmarks.prefix(4))
         )
     }
 }
