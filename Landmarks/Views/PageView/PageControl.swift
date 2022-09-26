@@ -43,9 +43,3 @@ struct PageControl: UIViewRepresentable {
         }
     }
 }
-
-//struct PageControl_Previews: PreviewProvider {
-//    static var previews: some View {
-//        PageControl(numberOfPages: <#T##Int#>, currentPage: <#T##Binding<Int>#>)
-//    }
-//}

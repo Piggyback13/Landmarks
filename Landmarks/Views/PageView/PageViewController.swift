@@ -27,8 +27,20 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
     }
     
     func updateUIViewController(_ pageViewController: UIPageViewController, context: Context) {
-        pageViewController.setViewControllers(
-            [context.coordinator.controllers[currentPage]], direction: .forward, animated: true)
+        var direction: UIPageViewController.NavigationDirection = .forward
+        var animated: Bool = false
+        
+        if let previousViewController = pageViewController.viewControllers?.first,
+           let previousPage = context.coordinator.controllers.firstIndex(of: previousViewController) {
+            direction = (currentPage >= previousPage) ? .forward : .reverse
+            animated = (currentPage != previousPage)
+        }
+        
+        let currentViewController = context.coordinator.controllers[currentPage]
+        pageViewController.setViewControllers([currentViewController], direction: direction, animated: animated)
+            /** Only forward transition */
+//        pageViewController.setViewControllers(
+//            [context.coordinator.controllers[currentPage]], direction: .forward, animated: animated)
     }
     
     class Coordinator: NSObject, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
