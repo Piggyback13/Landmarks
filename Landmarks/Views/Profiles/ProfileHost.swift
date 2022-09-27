@@ -32,11 +32,11 @@ struct ProfileHost: View {
                 ProfileEditor(profile: $draftProfile)
                     .onAppear {
                         draftProfile = modelData.profile
-                        print("onAppear was called")
+//                        print("onAppear was called")
                     }
                     .onDisappear {
                         modelData.profile = draftProfile
-                        print("onDisappear was called")
+//                        print("onDisappear was called")
                     }
             }
         }
