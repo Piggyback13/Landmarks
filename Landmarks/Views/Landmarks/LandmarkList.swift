@@ -10,7 +10,7 @@ import SwiftUI
 struct LandmarkList: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false
-    @State private var showingProfile = false
+//    @State private var showingProfile = false
     
     var filteredLandmarks: [Landmark] {
         modelData.landmarks.filter { landmark in
@@ -34,17 +34,17 @@ struct LandmarkList: View {
                 }
             }
             .navigationTitle("Landmarks")
-            .toolbar {
-                Button {
-                    showingProfile.toggle()
-                } label: {
-                    Label("User Profile", systemImage: "person.crop.circle")
-                }
-            }
-            .sheet(isPresented: $showingProfile) {
-                ProfileHost()
-                    .environmentObject(modelData)
-            }
+//            .toolbar {
+//                Button {
+//                    showingProfile.toggle()
+//                } label: {
+//                    Label("User Profile", systemImage: "person.crop.circle")
+//                }
+//            }
+//            .sheet(isPresented: $showingProfile) {
+//                ProfileHost()
+//                    .environmentObject(modelData)
+//            }
         }
     }
 }

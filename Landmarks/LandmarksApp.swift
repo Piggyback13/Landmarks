@@ -16,5 +16,9 @@ struct LandmarksApp: App {
             ContentView()
                 .environmentObject(modelData)
         }
+        
+        #if os(__WATCHOS_8_3)
+        
+        #endif
     }
 }

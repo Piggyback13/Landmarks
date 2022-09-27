@@ -282,10 +282,10 @@
 			isa = PBXGroup;
 			children = (
 				2FFE961628E31A590041E435 /* ContentView.swift */,
+				2FFE965828E31FAD0041E435 /* LandmarkDetail.swift */,
 				2FFE961828E31A590041E435 /* NotificationController.swift */,
 				2FFE961A28E31A590041E435 /* NotificationView.swift */,
 				2FFE961C28E31A590041E435 /* ComplicationController.swift */,
-				2FFE965828E31FAD0041E435 /* LandmarkDetail.swift */,
 				2FFE961E28E31A5A0041E435 /* Assets.xcassets */,
 				2FFE962328E31A5A0041E435 /* Info.plist */,
 				2FFE962428E31A5A0041E435 /* PushNotificationPayload.apns */,
@@ -723,7 +723,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 89LF288Q8X;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = WatchLandmarks_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = WatchLandmarks;
@@ -750,7 +750,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 89LF288Q8X;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = WatchLandmarks_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = WatchLandmarks;
@@ -776,7 +776,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchLandmarks WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = 89LF288Q8X;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WatchLandmarks WatchKit Extension/Info.plist";
@@ -809,7 +809,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchLandmarks WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = 89LF288Q8X;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WatchLandmarks WatchKit Extension/Info.plist";
@@ -842,7 +842,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 89LF288Q8X;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.piggyback13.Landmarks.WatchLandmarksTests;
@@ -864,7 +864,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 89LF288Q8X;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.piggyback13.Landmarks.WatchLandmarksTests;
@@ -884,7 +884,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 89LF288Q8X;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.piggyback13.Landmarks.WatchLandmarksUITests;
@@ -904,7 +904,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 89LF288Q8X;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.piggyback13.Landmarks.WatchLandmarksUITests;
@@ -1040,7 +1040,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
-				DEVELOPMENT_TEAM = 89LF288Q8X;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -1070,7 +1070,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
-				DEVELOPMENT_TEAM = 89LF288Q8X;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
