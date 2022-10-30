@@ -1,10 +1,3 @@
-//
-//  CircleImage.swift
-//  Landmarks
-//
-//  Created by Егор Глезденёв on 12.09.2022.
-//
-
 import SwiftUI
 
 struct CircleImage: View {

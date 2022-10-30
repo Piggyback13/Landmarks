@@ -1,10 +1,3 @@
-//
-//  ModelData.swift
-//  Landmarks
-//
-//  Created by Егор Глезденёв on 14.09.2022.
-//
-
 import Foundation
 import Combine
 

@@ -1,10 +1,3 @@
-//
-//  Profile.swift
-//  Landmarks
-//
-//  Created by Егор Глезденёв on 22.09.2022.
-//
-
 import Foundation
 
 struct Profile {

@@ -1,10 +1,3 @@
-//
-//  Landmark.swift
-//  Landmarks
-//
-//  Created by Егор Глезденёв on 13.09.2022.
-//
-
 import Foundation
 import SwiftUI
 import CoreLocation

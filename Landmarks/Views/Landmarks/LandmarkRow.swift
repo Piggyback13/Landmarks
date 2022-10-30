@@ -1,10 +1,3 @@
-//
-//  LandmarkRow.swift
-//  Landmarks
-//
-//  Created by Егор Глезденёв on 14.09.2022.
-//
-
 import SwiftUI
 
 struct LandmarkRow: View {

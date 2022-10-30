@@ -1,10 +1,3 @@
-//
-//  ProfileSummary.swift
-//  Landmarks
-//
-//  Created by Егор Глезденёв on 22.09.2022.
-//
-
 import SwiftUI
 
 struct ProfileSummary: View {

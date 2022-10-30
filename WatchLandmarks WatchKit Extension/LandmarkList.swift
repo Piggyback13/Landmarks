@@ -1,10 +1,3 @@
-//
-//  LandmarkList.swift
-//  WatchLandmarks WatchKit Extension
-//
-//  Created by Егор Глезденёв on 07.10.2022.
-//
-
 import SwiftUI
 
 struct LandmarkList: View {

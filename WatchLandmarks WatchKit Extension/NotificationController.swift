@@ -1,10 +1,3 @@
-//
-//  NotificationController.swift
-//  WatchLandmarks WatchKit Extension
-//
-//  Created by Егор Глезденёв on 27.09.2022.
-//
-
 import WatchKit
 import SwiftUI
 import UserNotifications

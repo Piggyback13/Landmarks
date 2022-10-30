@@ -1,10 +1,3 @@
-//
-//  LandmarkSettings.swift
-//  MacLandmarks
-//
-//  Created by Егор Глезденёв on 08.10.2022.
-//
-
 import SwiftUI
 
 struct LandmarkSettings: View {

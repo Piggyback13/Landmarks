@@ -1,10 +1,3 @@
-//
-//  CategoryItem.swift
-//  Landmarks
-//
-//  Created by Егор Глезденёв on 21.09.2022.
-//
-
 import SwiftUI
 
 struct CategoryItem: View {

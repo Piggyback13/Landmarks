@@ -1,10 +1,3 @@
-//
-//  Hike.swift
-//  Landmarks
-//
-//  Created by Егор Глезденёв on 20.09.2022.
-//
-
 import Foundation
 
 struct Hike: Codable, Hashable, Identifiable {

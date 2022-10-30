@@ -1,10 +1,3 @@
-//
-//  CategoryRow.swift
-//  Landmarks
-//
-//  Created by Егор Глезденёв on 20.09.2022.
-//
-
 import SwiftUI
 
 struct CategoryRow: View {

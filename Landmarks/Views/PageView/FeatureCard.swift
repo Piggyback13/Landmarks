@@ -1,10 +1,3 @@
-//
-//  FeatureCard.swift
-//  Landmarks
-//
-//  Created by Егор Глезденёв on 23.09.2022.
-//
-
 import SwiftUI
 
 struct FeatureCard: View {

@@ -1,10 +1,3 @@
-//
-//  HexagonParameters.swift
-//  Landmarks
-//
-//  Created by Егор Глезденёв on 19.09.2022.
-//
-
 import Foundation
 import CoreGraphics
 
